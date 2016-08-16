@@ -14,7 +14,7 @@ namespace WebDeveloperFinal.Areas.Autor.Models
         public string Email { get; set; }
 
         [EmailAddress]
-        [Display(Name = "Nombre de usuario")]
+        [Display(Name = "Nombree de usuario")]
         public string usuario { get; set; }
     }
 }
